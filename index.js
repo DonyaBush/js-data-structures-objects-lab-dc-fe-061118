@@ -5,5 +5,5 @@ copy=Object.assign({}, driver)
  copy[key]=value;
   return copy
   }
- functionupdateDriverWithKeyAndValue(driver, key, value)}
-driver [key]: value{
+ function updateDriverWithKeyAndValue(driver, key, value)}
+driver [key]: value; {
