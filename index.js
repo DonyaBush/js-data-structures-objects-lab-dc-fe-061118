@@ -6,3 +6,20 @@ copy=Object.assign({}, driver)
   return copy
   }
  
+ driver = {}
+function updateDriverWithKeyAndValue(driver, key, value) {
+copy=Object.assign({}, driver)
+ copy[key]=value;
+  return copy
+  }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ updateDriverWithKeyAndValue(driver, key, value)
