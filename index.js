@@ -10,7 +10,7 @@ copy=Object.assign({}, driver)
 function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
 copy=Object.assign({}, driver)
  copy[key]=value;
-  return copy
+  return driver
   }
  
  
