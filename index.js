@@ -8,13 +8,15 @@ copy=Object.assign({}, driver)
  
  driver = {}
 function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
-copy=Object.assign({}, driver)
+let mutatingAdd=Object.assign({}, driver)
  copy[key]=value;
   return driver
   }
  
  
- 
+ let mutatingAdd = ['a', 'b', 'c', 'd', 'e']; 
+
+mutatingAdd.push('f'); // ['a', 'b', 'c', 'd', 'e', 'f']  
  
  
  
