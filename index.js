@@ -14,9 +14,6 @@ let mutatingAdd=Object.assign({}, driver);
   }
  
  
- let mutatingAdd = ['a', 'b', 'c', 'd', 'e']; 
-
-mutatingAdd.push('f'); // ['a', 'b', 'c', 'd', 'e', 'f']  
  
  
  
